@@ -13,10 +13,12 @@ body {
   font-family: 'Bungee Hairline', cursive;
 }
 
-p {
-  outline: 2px;
+.wrapper {
+  background-color: #71dad2;
+
 }
 
-.wrapper {
+
+.entire {
 
 }

@@ -2,6 +2,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  font-family: 'Questrial', sans-serif;
 }
 
 body {
@@ -19,12 +20,34 @@ body {
   height: auto;
 }
 
+.box {
+  background-color: #69FADA;
+  padding: 25px;
+}
+
 .bg {
   background-image: url(../img/background.jpg);
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+.caption {
+  transform: rotate(-58deg);
+  position: fixed;
+  left: 0;
+  top: 75%;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  font-size: 30px;
+  letter-spacing: 5px;
 }

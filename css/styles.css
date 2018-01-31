@@ -34,7 +34,7 @@ img {
 .caption {
   transform: rotate(-58deg);
   position: fixed;
-  left: 0;
+  left: 10%;
   top: 75%;
   bottom: 50%;
   width: 100%;
@@ -48,4 +48,18 @@ img {
   padding: 15px;
   font-size: 30px;
   letter-spacing: 2px;
+}
+
+.ag {
+  background-color: #71dad2;
+  padding: 50px;
+}
+
+.padding-0 {
+    padding-right:0;
+    padding-left:0;
+}
+
+p {
+  padding: 15px;
 }

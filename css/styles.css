@@ -2,7 +2,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Fredoka One', sans-serif;
 }
 
 body {
@@ -11,11 +11,9 @@ body {
 
 .wrapper {
   background-color: #71dad2;
-
 }
 
-#self-portrait {
-  border-radius: 50%;
+img {
   max-width: 100%;
   height: auto;
 }
@@ -45,9 +43,9 @@ body {
 }
 
 .caption span.border {
-  background-color: #111;
-  color: #fff;
+  background-color: #69FADA;
+  color: #111;
   padding: 15px;
   font-size: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
